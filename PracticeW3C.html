@@ -1,0 +1,304 @@
+<!DOCTYPE html> 
+    <!-- The <!DOCTYPE> declaration represents the document type, and helps browsers to display web pages correctly.
+        It must only appear once, at the top of the page (before any HTML tags). -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Page</title> 
+        <!-- The title attribute defines some extra information about an element. -->
+    <link rel="stylesheet" href="W3C.css">
+</head>
+<body>
+     <!-- What is an HTML Element?:-An HTML element is defined by a start tag, some content, and an end tag. -->
+
+<!-- HTML Headings: HTML headings are defined with the <h1> to <h6> tags. -->
+    <h1>This is heading.</h1>
+    <h2>This is heading.</h2>
+    <h3>This is heading.</h3>
+    <h4>This is heading.</h4>
+    <h5>This is heading.</h5>
+    <h6>This is heading.</h6>
+
+<!-- HTML Paragraphs: HTML paragraphs are defined with the <p> tag: -->
+    <div id="para1">
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur, nulla recusandae rem quasi dignissimos ducimus voluptatibus vero nemo magni maiores.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur, nulla recusandae rem quasi dignissimos ducimus voluptatibus vero nemo magni maiores.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur, nulla recusandae rem quasi dignissimos ducimus voluptatibus vero nemo magni maiores.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur, nulla recusandae rem quasi dignissimos ducimus voluptatibus vero nemo magni maiores.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur, nulla recusandae rem quasi dignissimos ducimus voluptatibus vero nemo magni maiores.</p>
+    </div>
+
+<!-- HTML Links: HTML links are defined with the <a> tag: -->
+    <a href="https://www.google.com/">This is a link</a> 
+        <!--The href attribute specifies the URL of the page the link goes to:-->
+<br>
+<br>
+
+<!-- HTML Images: HTML images are defined with the <img> tag: -->
+    <div align="center"><img src="lands5.jpg" width="500" height="600" alt="Landscape"></div>
+        <!--The src attribute specifies the path to the image to be displayed. -->
+        <!-- the width and height attributes specifies the width and height of the image (in pixels). -->
+        <!-- The alt attribute for the <img> tag specifies an alternate text for an image. -->
+<br>
+
+<!-- HTML Horizontal Rules: The <hr> tag defines a thematic break in an HTML page, and is most often displayed as a horizontal rule. -->
+    <hr>
+
+<!-- HTML Line Breaks: The HTML <br> element defines a line break. -->
+    <p>This is<br>a paragraph<br>with line breaks.</p>
+
+<!-- HTML Pre Element: The HTML <pre> element defines preformatted text i.e. a fixed-width font (usually Courier), and it preserves both spaces and line breaks: -->
+    <pre>
+      My Bonnie lies over the ocean.
+    
+      My Bonnie lies over the sea.
+    
+      My Bonnie lies over the ocean.
+    
+      Oh, bring back my Bonnie to me.
+    </pre>
+
+<!-- HTML Styles: Setting the style of an HTML element, can be done with the style attribute: -->
+    <!-- The style attribute is used to add styles to an element, such as color, font, size, and more. -->
+    
+        <!-- Used color for coloring text. -->
+    <p style="color: darkblue;">This is sentence with blue color.</p> 
+        <!-- Used background color for coloring bg. -->
+    <p style="background-color: darkorchid;">This is sentence purple background.</p>
+        <!-- Used font family to give suitable text format -->
+    <p style="font-family: 'Times New Roman', Times, serif;">This is sentence with font.</p>
+        <!-- Used Font size to adjust the proper size. -->
+    <p style="font-size: large;">This is sentence.</p>
+        <!-- Used Text align to adjust alignment. -->
+    <p style="text-align: center;">This is sentence.</p>
+        
+
+<!-- HTML Formatting: HTML contains several elements for defining-->
+<b>This text is bold.</b>
+<br>
+<em>This text is emphasized</em>
+<br>
+<i>This text is italic.</i>
+<br>
+<small>This defines smaller text.</small>
+<br>
+<strong>This defines important text.</strong>
+<br>
+<sub>This defines subscripted text.</sub>
+<br>
+<sup>This defines superscripted text</sup>
+<br>
+<ins>This defines inserted text</ins>
+<br>
+<del>Ths defines deleted text</del>
+<br>
+<mark>This defines marked/highlighted text text with a special meaning.</mark>
+<br>
+
+<!-- HTML Quotation and Citation Elements: In this chapter we will go through the <blockquote>,<q>, <abbr>, <address>, <cite>, and <bdo> HTML elements. -->
+
+    <!-- The HTML <blockquote> element defines a section that is quoted from another source.-->
+    <p>Here is a quote from WWF's website:</p>
+    <blockquote cite="http://www.worldwildlife.org/who/index.html">
+        For 50 years, WWF has been protecting the future of nature.
+        The world's leading conservation organization,
+        WWF works in 100 countries and is supported by
+        1.2 million members in the United States and
+        close to 5 million globally.
+    </blockquote>
+
+    <!-- The HTML <q> tag defines a short quotation. -->
+    <p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p>
+
+    <!-- The HTML <abbr> tag defines an abbreviation or an acronym, like "HTML", "CSS", "Mr.", "Dr.", "ASAP", "ATM". -->
+    <p>The full form of: <abbr title="World Health Organisation">WHO</abbr></p>
+
+    <!-- The HTML <cite> tag defines the title of a creative work (e.g. a book, a poem, a song, a movie, a painting, a sculpture, etc.). -->
+    <p><cite>The Scream</cite> by Mitali Patni. Painted in 2020.</p>
+    
+    <!-- The HTML <address> tag defines the contact information for the author/owner of a document or an article. -->
+    <address>
+        Written by Akshat Somani.<br>
+        Visit us at:<br>
+        google.com<br>
+        24-B.P.Road, Bhayandar<br>
+        India.
+    </address>
+
+    <!-- HTML Colors: -->
+    <b>Color Codes:</b>
+    <ol>
+        <li>
+        <p>In HTML, a color can be specified as an RGB value, using this formula:
+
+            rgb(red, green, blue)
+            Each parameter (red, green, and blue) defines the intensity of the color with a value between 0 and 255.
+            This means that there are 256 x 256 x 256 = 16777216 possible colors!   
+
+            RGBA color values are an extension of RGB color values with an Alpha channel - which specifies the opacity for a color.
+            An RGBA color value is specified with:
+
+            rgba(rred, green, blue, alpha)
+            The alpha parameter is a number between 0.0 (fully transparent) and 1.0 (not transparent at all).
+        </p>
+        </li>
+        
+        <li>
+        <p>
+            In HTML, a color can be specified using a hexadecimal value in the form:
+            
+            #rrggbb
+            Where rr (red), gg (green) and bb (blue) are hexadecimal values between 00 and ff (same as decimal 0-255).
+        </p>
+        </li>
+
+        <li>
+        <p>
+            In HTML, a color can be specified using hue, saturation, and lightness (HSL) in the form:
+            
+            hsl(hue, saturation, lightness)
+            Hue is a degree on the color wheel from 0 to 360. 0 is red, 120 is green, and 240 is blue.
+            Saturation is a percentage value, 0% means a shade of gray, and 100% is the full color.
+            Lightness is also a percentage value, 0% is black, and 100% is white.
+        </p>   
+        </li>
+    </ol>
+
+    <!-- HTML Styles CSS -->
+
+    <!-- Inline CSS: An inline CSS is used to apply a unique style to a single HTML element.
+                    An inline CSS uses the style attribute of an HTML element. -->
+        <h1 style="color:blue;">A Blue Heading</h1>
+        
+        <p style="color:red;">A red paragraph.</p>
+
+    <!-- Internal CSS: An internal CSS is used to define a style for a single HTML page.
+                       An internal CSS is defined in the <head> section of an HTML page, within a <style> element. -->
+        <!-- <!DOCTYPE html> 
+        <html>
+        <head>
+            <style>
+                body {
+                    background-color: powderblue;
+                }
+        
+                h1 {
+                    color: blue;
+                }
+        
+                p {
+                    color: red;
+                }
+            </style>
+        </head>
+        
+        <body>
+        
+            <h1>This is a heading</h1>
+            <p>This is a paragraph.</p>
+        
+        </body>
+        
+        </html> -->
+
+    <!-- External CSS: An external style sheet is used to define the style for many HTML pages.
+                       To use an external style sheet, add a link to it in the <head> section of each HTML page: 
+
+        "styles.css":
+        body {
+        background-color: powderblue;
+        }
+        h1 {
+        color: blue;
+        }
+        p {
+        color: red;
+        } -->
+
+        <!-- Video Editing -->
+         <div align="center">
+             <h1>Video</h1>
+             <video src="Video Editing.mp4" width=500 controls></video> 
+             <br>This browser does not support the <code>video</code></video>
+         <br>
+         </div>
+
+         <!-- Tables -->
+         <table>
+             <tr>
+                <th>Row One</th>
+                <th>Row Two</th>
+                <th>Row Three</th>
+
+             </tr>
+             <tr>
+                <td>One</td>
+                <td>Two</td>
+                <td>Three</td>
+            </tr>
+            <tr>
+                <td>Four</td>
+                <td>Five</td>
+                <td>Six</td>
+            </tr>
+            <tr>
+                <td>Seven</td>
+                <td>Eight</td>
+                <td>Nine</td>
+            </tr>
+         </table>
+
+        <table border="1">
+            <tr>
+                <th>Child's Name:</th>
+                <th>Parent's Name:</th>
+            </tr>
+            <tr>
+                <td rowspan="2">Catherine</td>
+                <td>Michael McCarthy</td>
+            </tr>
+            <tr>
+                <td>Collen McCarthy</td>
+            </tr>
+            <tr>
+                <td>Maggie</td>
+                <td>Sheila McGee</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Edward</td>
+                <td>Catherine Howard</td>
+            </tr>
+            <tr>
+                <td>Jeff Howard</td>
+            </tr>
+            
+        </table>
+        <details>Don't Open this!!
+        <summary>Akshat Somani</summary>
+        </details>
+
+        <br>
+        <button>open</button>
+        <button>close</button>
+        <br>
+        <meter min="0" max="100" value="50">50%</meter>
+        <meter min="0" max="1" value="0.25">25%</meter><br>
+        <meter min="5" max="10" value="8">60%</meter><br>
+        <br>
+        <progress min="0" max="100" value="70">10%</progress>
+
+        <p>
+            <iframe
+                src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSY-cGVLLO8J5IWc_BchaHIZKmvLcGBogLw3Gyv5WW1TvGjC6BBcbpXGaRcDpxiAhQqm7Ap_UjGhBiO/pubhtml?widget=true&amp;headers=false"></iframe>
+        </p>
+
+
+
+
+
+
+ 
+
+</body>
+</html>
